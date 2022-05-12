@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.student_home_page">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="STUDENT DASHBOARD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:text="DEPARTMENT ANNOUNCEMENTS" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:text="Section Announcements"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:text="COLLEGE FORUM (FEEDBACK)"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:text="OPEN CHATS"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="70dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

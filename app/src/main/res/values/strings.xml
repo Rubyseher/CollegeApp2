@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">College app</string>
+    <string name="TODO1">TODO</string>
+    <string name="upload_notice">Upload Notice</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="upload_announcement">Announce</string>
+    <string name="TODO2" translatable="false">TODO</string>
+    <string name="upload_e_book">Upload E-Book</string>
+    <string name="update_faculty">Update Faculty</string>
+    <string name="TODO3">TODO</string>
+    <string name="TODO4">TODO</string>
+    <string name="delete">Delete</string>
+    <string name="TODO5">TODO</string>
+    <string name="help">HELP</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="TODO6" translatable="false">TODO</string>
+    <string name="login_page">LOGIN PAGE</string>
+</resources>

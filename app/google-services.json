@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "120606538359",
+    "firebase_url": "https://college-connect-chat-app-default-rtdb.firebaseio.com",
+    "project_id": "college-connect-chat-app",
+    "storage_bucket": "college-connect-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120606538359:android:44b8a0bbc194ff83b5a472",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120606538359-acqquodblgb70g14olmmsmcnq0f15n8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs71G5uFxu_-KbEGJr0149HOS51Ejx7Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120606538359-acqquodblgb70g14olmmsmcnq0f15n8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
