@@ -3,6 +3,14 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
 android {
     compileSdk 32
 

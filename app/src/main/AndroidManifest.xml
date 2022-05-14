@@ -10,6 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".help_student"
+            android:exported="false" />
+        <activity
+            android:name=".help_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".help_admin"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_details_student"
+            android:exported="false" />
+        <activity
+            android:name=".student_details_student"
+            android:exported="false" />
+        <activity
+            android:name=".upload_ebook_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".student_details_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".upload_ebook_admin"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_details_admin"
+            android:exported="false" />
+        <activity
+            android:name=".student_detials_admin"
+            android:exported="false" />
+        <activity
+            android:name=".upload_announcement_admin"
+            android:exported="false" />
+        <activity
+            android:name=".upload_notice_admin"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".student_page"
             android:exported="false" />
         <activity
@@ -17,9 +56,6 @@
             android:exported="false" />
         <activity
             android:name=".admin_home_page"
-            android:exported="false" />
-        <activity
-            android:name=".student_home_page"
             android:exported="false" />
         <activity
             android:name=".LoginActivity3"
@@ -42,6 +78,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".upload_notice_admin"/>
     </application>
 
 </manifest>
