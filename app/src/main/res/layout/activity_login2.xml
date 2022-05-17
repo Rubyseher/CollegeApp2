@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myapplication.LoginActivity2"
+    tools:context="com.example.myapplication.LoginActivity"
     android:background="@android:color/white">
 
     <RelativeLayout
@@ -19,11 +19,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="monospace"
                 android:text="@string/login_page"
                 android:textColor="@android:color/white"
-                android:layout_centerInParent="true"
-                android:textSize="22sp"
-                android:fontFamily="monospace"/>
+                android:textSize="22sp" />
 
         </RelativeLayout>
 
@@ -39,7 +39,7 @@
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_launcher_foreground" />
+                android:src="@drawable/ic_launcher_foreground"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                             android:layout_marginBottom="2dp"
                             android:background="@null"
                             android:fontFamily="sans-serif"
-                            android:hint="Department Id"
+                            android:hint="FACULTY ID"
                             android:inputType="textEmailAddress"
                             android:textColor="@android:color/white"
                             android:textSize="16sp"
@@ -133,27 +133,17 @@
 
         </LinearLayout>
 
-        <RelativeLayout
-            android:id="@+id/login_btn"
-            android:layout_width="match_parent"
+
+        <Button
+            android:id="@+id/button456"
+            android:layout_width="250dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/sign_in"
-            android:background="@drawable/rounded_corner"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            android:layout_marginTop="30dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="LOGIN"
-                android:layout_centerInParent="true"
-                android:textColor="@android:color/white"
-                android:textSize="17sp"
-                android:fontFamily="monospace"/>
-
-        </RelativeLayout>
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="400dp"
+            android:text="LOGIN" />
 
     </RelativeLayout>
+
+
 
 </ScrollView>

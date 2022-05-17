@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:padding="16dp"
     android:layout_height="match_parent"
-    tools:context=".upload_ebook_admin">
+    tools:context=".upload_ebook_faculty">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Book title"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
@@ -81,9 +81,9 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="347dp"
-            android:layout_marginTop="20dp"
             android:layout_margin="@dimen/material_emphasis_medium"
-            />
+            android:layout_marginTop="20dp" />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

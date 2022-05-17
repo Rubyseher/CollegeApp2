@@ -59,23 +59,20 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_purple"
+                    android:background="@drawable/circle_pink"
                     android:src="@drawable/ic_notice"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="View Notice"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="view notice"
+                    android:textSize="11dp" />
+
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -97,21 +94,17 @@
                     android:layout_height="64dp"
                     android:background="@drawable/circle_purple"
                     android:src="@drawable/ic_baseline_contactless_24"
-                    android:padding="1dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="1dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Annoucements"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="view notice"
+                    android:textSize="11dp" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -140,23 +133,20 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_pink"
+                    android:background="@drawable/circle_yellow"
                     android:src="@drawable/ic_group"
-                    android:padding="15dp"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Student Details"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="Student details"
+                    android:textSize="11dp" />
+
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -179,21 +169,18 @@
                     android:layout_height="64dp"
                     android:background="@drawable/circle_green"
                     android:src="@drawable/ic_baseline_insert_comment_25"
-                    android:padding="15dp"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Chat Room"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="chat room"
+                    android:textSize="11dp" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -222,23 +209,19 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_yellow"
+                    android:background="@drawable/circle_orange"
                     android:src="@drawable/upload"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Upload E-book"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="upload e-book"
+                    android:textSize="11dp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -275,16 +258,14 @@
                     android:layout_height="1dp"
                     android:background="@color/lightGray" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:padding="5dp"
-                    android:text="@string/help"
-                    android:textColor="@color/textColor"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="help"
+                    android:textSize="11dp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 

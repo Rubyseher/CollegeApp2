@@ -36,7 +36,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:id="@+id/notice"
             app:cardElevation="10dp">
@@ -48,30 +48,31 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/circle_green"
                     android:padding="15dp"
-                    android:src="@drawable/calendar" />
+                    android:src="@drawable/calendar"
+                    android:layout_marginTop="20dp"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+
 
                 <Button
                     android:id="@+id/btn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="76dp"
-                    android:text="Upload notice"/>
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:text="Upload notice"
+                    android:textSize="11dp"
+                  />
 
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:id="@+id/add"
             app:cardElevation="5dp">
@@ -83,26 +84,24 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
                     android:background="@drawable/circle_purple"
                     android:src="@drawable/announce"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/upload_announcement"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"
-                    android:textAlignment="center"/>
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:text="Announcment"
+                    android:textSize="11dp"
+                    android:layout_marginTop="3dp"
+
+                    android:background="@color/white"/>
+
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -117,10 +116,10 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:id="@+id/addStudent"
-            app:cardElevation="5dp">
+            app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -129,32 +128,29 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
                     android:background="@drawable/circle_pink"
-                    android:src="@drawable/add_student"
-                    android:padding="15dp"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:src="@drawable/ic_register2"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Update Student"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:background="@color/white"
+                    android:text="Update student"
+                    android:textSize="11dp"
+                    android:layout_marginTop="3dp"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:id="@+id/addFaculty"
             app:cardElevation="5dp">
@@ -166,25 +162,21 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
                     android:background="@drawable/circle_yellow"
                     android:src="@drawable/add_faculty"
-                    android:padding="15dp"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/update_faculty"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:background="@color/white"
+                    android:text="update faculty"
+                    android:textSize="11dp"
+                    android:layout_marginTop="3dp"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -197,9 +189,42 @@
         android:layout_margin="5dp">
 
 
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:id="@+id/register"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/circle_orange"
+                    android:src="@drawable/add_student"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:background="@color/white"
+                    android:text="register"
+                    android:textSize="11dp"
+                    android:layout_marginTop="3dp"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:id="@+id/addEbook"
             app:cardElevation="10dp">
@@ -207,109 +232,98 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:gravity="center"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circle_green"
-                    android:src="@drawable/upload"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    android:layout_marginTop="10dp"/>
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/upload_e_book"
-                    android:textStyle="bold"
-                    android:padding="5dp"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                    android:background="@drawable/circle_red"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_menu_book_24"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:background="@color/white"
+                    android:text="Upload E-book"
+                    android:textSize="11dp"
+                    android:layout_marginTop="3dp"/>
+
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:layout_margin="5dp">
+        android:layout_height="130dp"
+        android:layout_margin="1dp"
+        android:gravity="center_horizontal">
+
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addHelp"
             android:layout_width="130dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:id="@+id/addHelp"
             app:cardElevation="10dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="64dp"
-                    android:background="@color/lightGray"
-                    android:src="@drawable/ic_baseline_help_center_24"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:padding="5dp"
-                    android:text="@string/help"
-                    android:textColor="@color/textColor"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    tools:ignore="HardcodedText" />
+                    android:background="@color/lightGray"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_baseline_help_center_24"
+                    android:layout_marginTop="20dp"/>
+
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="130dp"
+                    android:layout_height="65dp"
+                    android:text="HELP"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="5dp"
+                    />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addLogout"
             android:layout_width="130dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:id="@+id/addLogout"
             app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="64dp"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp"
                     android:background="@color/lightGray"
-                    android:src="@drawable/ic_baseline_login_out_24"
-                    android:padding="15dp" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGray"
-                    />
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_login_out_24" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:padding="5dp"
-                    android:text="@string/log_out"
-                    android:textColor="@color/textColor"
-                    android:textStyle="bold"
-                    android:textSize="15sp"/>
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:text="Log out"
+                    android:textSize="17dp"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

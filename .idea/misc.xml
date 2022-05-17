@@ -11,10 +11,12 @@
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_black.xml" value="0.2045" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_blue.xml" value="0.124" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_green.xml" value="0.124" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_orange.xml" value="0.117" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_pink.xml" value="0.124" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_purple.xml" value="0.2595" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_red.xml" value="0.124" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/circle_yellow.xml" value="0.124" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/darkgreen.xml" value="0.14" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/delete.xml" value="0.124" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_contactless_24.xml" value="0.2045" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1" />
@@ -25,17 +27,20 @@
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_notice.xml" value="0.2045" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_profile.xml" value="0.2045" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/pink1.xml" value="0.1505" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/rounded_corner.xml" value="0.128" />
-        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_admin_home_page.xml" value="0.1" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_admin_home_page.xml" value="0.2" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_circle_green.xml" value="0.1" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ebook_adm.xml" value="0.1953125" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ebook_admin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_faculty_details_admin.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_faculty_details_student.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_faculty_page.xml" value="0.2" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_help_admin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_help_faculty.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_help_student.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login2.xml" value="0.1" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login2.xml" value="0.264" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login3.xml" value="0.264" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login4.xml" value="0.17083333333333334" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
@@ -46,10 +51,10 @@
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_student_details_student.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_student_detials_admin.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_student_home_page.xml" value="0.2" />
-        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_student_page.xml" value="0.2" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_student_page.xml" value="0.264" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_announcement_admin.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_ebook_admin.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_ebook_faculty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_ebook_faculty.xml" value="0.176" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_notice.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_upload_notice_admin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Jay Raparla/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_user_choice.xml" value="0.2" />

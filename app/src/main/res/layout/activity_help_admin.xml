@@ -55,11 +55,11 @@
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="350dp"
+                android:layout_height="634dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="180dp"
-                android:text="1. upload notice - here you  can upload all the information
+                android:text="1.upload notice - here you  can upload all the information
                                    "
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -68,8 +68,8 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="342dp"
+                android:layout_height="491dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="240dp"
                 android:text="2. Announcement - here you can upload all the announcements"
@@ -79,8 +79,8 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="344dp"
+                android:layout_height="497dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="300dp"
                 android:text="3. Update student - you can update students details"
@@ -90,8 +90,8 @@
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="349dp"
+                android:layout_height="497dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="360dp"
                 android:text="4. Update Faculty - you can update faculties details"
@@ -101,8 +101,8 @@
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="347dp"
+                android:layout_height="476dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="420dp"
                 android:text="5. Upload E-book - you can upload e-books here"
@@ -112,8 +112,8 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="360dp"
-                android:layout_height="500dp"
+                android:layout_width="347dp"
+                android:layout_height="416dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="480dp"
                 android:text="6. Logout - this will direct you to the login page"

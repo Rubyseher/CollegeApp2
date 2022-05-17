@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_black">#403E3E</color>
     <color name="blue">#5CABEA</color>
+    <color name="orange">#FFF44007</color>
+    <color name="pink1">#FFF81A66</color>
+    <color name="darkgreen">#FF0A600E</color>
+    <color name="purple">#FF9C27B0</color>
+
+
 </resources>
