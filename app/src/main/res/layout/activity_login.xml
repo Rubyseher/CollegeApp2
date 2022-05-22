@@ -68,7 +68,7 @@
                             android:fontFamily="sans-serif"
                             android:hint="Administrator ID"
                             android:inputType="textEmailAddress"
-                            android:textColor="@android:color/white"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp"
                             android:autofillHints="" />
                         
@@ -102,18 +102,18 @@
                             android:layout_height="wrap_content">
 
 
-                        <EditText
-                            android:id="@+id/user_pass"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginBottom="2dp"
-                            android:background="@null"
-                            android:hint="Password"
-                            android:layout_centerVertical="true"
-                            android:inputType="textPassword"
-                            android:textColor="@android:color/white"
-                            android:textSize="16sp"/>
+                            <EditText
+                                android:id="@+id/user_pass"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@null"
+                                android:hint="Password"
+                                android:inputType="textPassword"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
 
                             <TextView
                                 android:id="@+id/txt_show"
