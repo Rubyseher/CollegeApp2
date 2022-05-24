@@ -24,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     private Button button;
 
     private FirebaseDatabase db=FirebaseDatabase.getInstance();
-    private DatabaseReference root =db.getReference();
+    private DatabaseReference root =db.getReference( "users");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
                 userMap.put("email",email);
                 userMap.put("pass",pass);
 
-                root.push().setValue(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                root.child(name).setValue(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task)
                     {
